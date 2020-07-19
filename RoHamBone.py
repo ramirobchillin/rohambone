@@ -8,4 +8,4 @@ class Player:
     
     def shoot(self):
         possible_moves = ['Rock', 'Paper', 'Scissors']
-        return choice(possible_moves) 
+        self.move = choice(possible_moves) 
